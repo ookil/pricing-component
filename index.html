@@ -22,11 +22,10 @@
         <div class="toggle-container">
           <div class="toggle">
             <span>Annually</span>
-            <div class="toggle-btn">
+            <div class="toggle-btn" onclick="this.classList.toggle('active')">
               <div class="inner-circle"></div>
             </div>
             <span>Monthly</span>
-
           </div>
         </div>
       </div>
@@ -38,17 +37,16 @@
           <h3>
             Basic
           </h3>
-          <h1 id="price">
-            &dollar;19.99
+          <h1>
+            <span class="dollar">&dollar;</span><span id="price">19.99</span>
           </h1>
-          &dollar;199.99
           <p>
             500 GB Storage
           </p>
           <p>
             2 Users Allowed
           </p>
-          <p>
+          <p class="last">
             Send up to 3 GB
           </p>
           <button class="more">Learn More</button>
@@ -58,17 +56,16 @@
           <h3>
             Professional
           </h3>
-          <h1>
-            &dollar;24.99
-          </h1 id="price">
-          &dollar;249.99
+          <h1 id="price">
+            <span class="dollar">&dollar;</span><span id="price">24.99</span>
+          </h1 >
           <p>
             1 TB Storage
           </p>
           <p>
             5 Users Allowed
           </p>
-          <p>
+          <p class="last">
             Send up to 10 GB
           </p>
           <button class="more">Learn More</button>
@@ -79,16 +76,15 @@
             Master
           </h3>
           <h1 id="price">
-            &dollar;39.99
+            <span class="dollar">&dollar;</span><span id="price">39.99</span>
           </h1>
-          &dollar;399.99
           <p>
             2 TB Storage
           </p>
           <p>
             10 Users Allowed
           </p>
-          <p>
+          <p class="last">
             Send up to 20 GB
           </p>
           <button class="more">Learn More</button>

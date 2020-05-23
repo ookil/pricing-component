@@ -30,3 +30,17 @@ The designs were created to the following widths:
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weight: 700
+
+
+<h1 id="price">
+            &dollar;19.99
+          </h1>
+          &dollar;199.99
+
+          &dollar;24.99
+          </h1 id="price">
+          &dollar;249.99
+
+                      &dollar;39.99
+          </h1>
+          &dollar;399.99
