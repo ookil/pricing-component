@@ -4,7 +4,7 @@ body {
     background-color: hsl(240, 78%, 98%);
     background-image: url("/images/bg-top.svg");
     background-repeat: no-repeat;
-    background-position: top left;    
+    background-position: top -40px right -200px;    
 }
 
 .container {
@@ -14,26 +14,35 @@ body {
     text-align: center;
 }
 
+
 .header h2{
-    color: hsl(233, 13%, 49%)
+    color: hsl(233, 13%, 49%);
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    font-size: 2rem;
 }
 
 .toggle {
-    
-    
+    margin-bottom: 4em;
+    color: hsl(234, 14%, 74%);    
 }
 
 .toggle-btn {
-    width: 60px;
-    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    width: 65px;
+    height: 35px;
     border-radius: 20px;
     padding: 5px;
+    margin: 0 20px;
     background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));    
 }    
 
 .inner-circle {
-    width: 30px;
-    height: 30px;
+    display: inline-block;
+    text-align: left;
+    width: 25px;
+    height: 25px;
     background: white;
     border-radius: 50%;
     
