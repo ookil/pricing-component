@@ -2,7 +2,7 @@
 
 body {
     background-color: hsl(240, 78%, 98%);
-    background-image: url("/images/bg-top.svg");
+    background-image: url("./images/bg-top.svg");
     background-repeat: no-repeat;
     background-position: top -30px right -200px;    
 }
