@@ -65,12 +65,13 @@ body {
 
 /* BOX */
 
+
 .box {
     background-color: white;
     color: hsl(233, 13%, 49%);
     border-radius: 10px; 
     padding: 1em;
-    margin: 20px 0;
+    margin: 20px auto;
     text-align: center;
     max-width: 380px; 
 }
@@ -156,16 +157,17 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin-top: 3em;
 }
    
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     color: hsl(234, 14%, 74%);
     color: hsl(233, 13%, 49%);
-    color: hsl(232, 13%, 33%)
+    color: hsl(232, 13%, 33%);
 }
 
-@media (min-width: 380px) {
+@media (min-width: 1440px) {
     .d-flex {
         display: flex;
         justify-content: center;
@@ -173,12 +175,20 @@ body {
     }
 
     .box {
-        max-width: 100%;
+        max-width: 400px;
         flex-grow: 1;
+        flex-shrink: 1;
+        box-shadow: 5px 5px 10px hsla(232, 13%, 33%, .3);
+        margin-left: 0;
+        margin-right: 0;
     }
 
+
     .box-pro {
-        
+        padding: 40px 1em ;
+        height: 550px;
         align-self: center;
-    }    
+    }
+    
+    
 }
