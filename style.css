@@ -183,12 +183,27 @@ body {
         margin-right: 0;
     }
 
+    .box-pro {
+        padding: 26px 1em ;
+        height: 510px;
+        align-self: center;
+    }
 
+    .price {
+        font-size: 3rem;
+    }
+
+    .dollar {
+        font-size: 2rem;
+    }
+        
+    
+}
+
+@media (min-width: 1440px) {
     .box-pro {
         padding: 40px 1em ;
         height: 550px;
         align-self: center;
     }
-    
-    
 }
